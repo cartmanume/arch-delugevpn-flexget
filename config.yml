@@ -1,0 +1,6 @@
+tasks:
+  taskdefault:
+schedules:
+  - tasks: '*'
+    interval:
+      minutes: 15
