@@ -10,7 +10,7 @@ pacman_packages="python2-pip"
 pacman -Sy --noconfirm
 pacman -S --needed $pacman_packages --noconfirm
 
-pip2 install flexget
+pip2 install flexget deluge-client
 
 # set permissions
 chown -R nobody:users /home/nobody /usr/bin/flexget
